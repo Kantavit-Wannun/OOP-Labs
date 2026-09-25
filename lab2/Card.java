@@ -1,8 +1,8 @@
 package lab2;
 
-public class Card {
-    private enum Rank {TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,TEN,JACK,QUEEN,KING,ACE};
-    private enum Suit {DIAMONDS,CLUBS,HEARTS,SPADES}
+public class Card{
+    enum Rank {TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,TEN,JACK,QUEEN,KING,ACE};
+    enum Suit {DIAMONDS,CLUBS,HEARTS,SPADES}
 
     private Rank rank;
     private Suit suit;
