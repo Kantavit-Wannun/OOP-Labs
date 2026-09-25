@@ -14,6 +14,9 @@ public class Player {
     public void setMinutePlayed (int minutesPlayed){
         this.minutesPlayed = minutesPlayed;
     }
+    public void print() {
+        System.out.println(name + ": " + jerseyNumber);
+    }
 
     public String getName (){
         return name;
