@@ -1,6 +1,6 @@
 package lab2;
 
-public class FootBallPlayer {
+public class FootballPlayer extends Player{
     private String name;
     private int jerseyNumber;
     private int minutesPlayed;
