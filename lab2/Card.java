@@ -1,8 +1,11 @@
 package lab2;
 
+import lab2.Card.Rank;
+import lab2.Card.Suit;
+
 public class Card{
-    enum Rank {TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,TEN,JACK,QUEEN,KING,ACE};
-    enum Suit {DIAMONDS,CLUBS,HEARTS,SPADES}
+    public enum Rank {TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,TEN,JACK,QUEEN,KING,ACE};
+    public enum Suit {DIAMONDS,CLUBS,HEARTS,SPADES}
 
     private Rank rank;
     private Suit suit;

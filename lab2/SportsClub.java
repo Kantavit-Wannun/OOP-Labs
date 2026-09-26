@@ -5,10 +5,11 @@ public class SportsClub extends Club{
         super(c, m);
     }
 
+    @Override
     public int determineBudget() {
         return (numMember * 1000) + (numMember - minNumMember)*100;
     }
 
-    public void changeName(String newName) {
-    }
+    @Override
+    public void changeName(String newName){}
 }

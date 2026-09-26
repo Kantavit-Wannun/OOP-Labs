@@ -10,6 +10,7 @@ public class Father extends Parent{
     public Mother getWife(){
         return wife;
     }
+    @Override
     public String getFirstName() {
         return "Mr." + firstName;
     }

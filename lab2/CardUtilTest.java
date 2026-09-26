@@ -1,5 +1,4 @@
 package lab2;
-
 public class CardUtilTest {
     public static void main(String[] args) {
         Card card1 = new Card(Card.Rank.ACE, Card.Suit.HEARTS);

@@ -1,5 +1,4 @@
 package lab2;
-
 public class CardUtil {
     public static final Card.Rank HIGHEST_RANK = Card.Rank.ACE;
     public static final Card.Suit HIGHEST_SUITE = Card.Suit.SPADES;

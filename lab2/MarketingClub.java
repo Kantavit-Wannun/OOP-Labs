@@ -15,6 +15,7 @@ public class MarketingClub extends Club{
             return false;
         }
     }
+    @Override
     public int determineBudget(){
         if (budget > 1000) {
             return 0;
