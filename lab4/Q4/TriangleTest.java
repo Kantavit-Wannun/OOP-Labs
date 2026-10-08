@@ -18,7 +18,7 @@ public class TriangleTest {
         try {
             triangle.addTriangle(null);
         } catch (IllegalArgumentException e) {
-            System.out.println("Triangle cannot be null");
+            System.out.println(e.getMessage());
         }
     }
 }
