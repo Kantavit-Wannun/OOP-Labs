@@ -4,7 +4,7 @@ public abstract class PSUStudent {
     protected int age;
     protected double gpa;
 
-    public PSUStudent(int age,double gpa) throws IllegalArgumentException {
+    public PSUStudent(int age,double gpa){
         this.age = age;
         this.gpa = gpa;
     }

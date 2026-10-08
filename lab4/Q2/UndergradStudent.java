@@ -17,6 +17,5 @@ public class UndergradStudent extends PSUStudent {
         } else {
             return 0.0d;
         }
-        
     }
 }
