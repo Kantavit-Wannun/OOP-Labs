@@ -15,11 +15,11 @@ public class TriangleManager {
         }
     }
     
-    public void addTriangle(Triangle t){
-        if (t == null) {
+    public void addTriangle(Triangle triangle){
+        if (triangle == null) {
             throw new IllegalArgumentException("Triangle cannot be null");
         }
-        triangles.add(t);
+        triangles.add(triangle);
     }
     public Triangle findTriangleWithLargestPerimeter(){
         if (triangles.isEmpty()) {
